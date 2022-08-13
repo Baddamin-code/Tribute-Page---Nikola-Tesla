@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:300,regular,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Palanquin:100,200,300,regular,500,600,700);
+
+body {
+    background-color: rgba(200, 200, 200, 0.2);
+    line-height: 1.5;
+
+}
+
+
+h1 {
+    margin: 30px auto;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 35px;
+    text-align: left;
+    font-family: Roboto;
+}
+
+h3 {
+    font-size: 25px;
+    text-align: left;
+    font-family: Roboto;
+    margin: 50px 0;
+
+}
+
+figcaption {
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+    font-family: palanquin;
+    margin: 1px 0 30px 0;
+
+}
+
+p {
+    font-family: comfortaa;
+}
+
+blockquote {
+    font-style: italic;
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+}
+
+footer {
+    margin: auto 300px;
+    text-align: center;
+}
+
+
+section {
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: 60% 40%;
+}
+
+
+/* Class Selectors */
+.intro {
+    margin: auto;
+    max-width: 80%;
+}
+
+.tesla-adult {
+    max-width:50% ;
+    margin: auto;
+    height: auto;
+    font-size: 18px;
+    font-size: palanquin;
+}
+
+.tesla-family, .coil-volts {
+    max-width: 30%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.section-one {
+    margin-left: 5px;
+    text-align: left;
+}
+
+.section-two {
+    margin-right: 5px;
+}
+
